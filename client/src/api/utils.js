@@ -1,0 +1,53 @@
+// Main URL
+const API_URL = '/api/v1'
+
+// Signup URL
+const SIGNUP_URL = API_URL + '/signup'
+const CREATE_SIGNUP_URL = SIGNUP_URL + '/create'
+const FIND_SIGNUP_URL = SIGNUP_URL + '/find'
+
+// FAQ URL
+const FAQ_URL = API_URL + '/faq'
+const CREATE_FAQ_URL = FAQ_URL + '/create'
+const FIND_ALL_FAQ_URL = FAQ_URL + '/find/all'
+const FIND_ANSWERED_FAQ_URL = FAQ_URL + '/find/answered'
+const ANSWER_FAQ_URL = FAQ_URL + '/answer'
+
+// Tournament URL
+const TOURNAMENT_URL = API_URL + '/tournament'
+const CREATE_TOURNAMENT_URL = TOURNAMENT_URL + '/create'
+const EDIT_TOURNAMENT_URL = TOURNAMENT_URL + '/edit'
+const DELETE_TOURNAMENT_URL = TOURNAMENT_URL + '/delete'
+const FIND_TOURNAMENT_URL = TOURNAMENT_URL + '/find'
+
+// Tournament Signups URL
+const TOURNAMENT_SIGNUP_URL = API_URL + '/tournament-signups'
+const CREATE_TOURNAMENT_SIGNUP_URL = TOURNAMENT_SIGNUP_URL + '/create'
+const FIND_ACTIVE_TOURNAMENT_SIGNUP_URL = TOURNAMENT_SIGNUP_URL + '/find/active'
+const FIND_ALL_TOURNAMENT_SIGNUP_URL = TOURNAMENT_SIGNUP_URL + '/find/all'
+
+export default {
+    // Main URL
+    API_URL,
+    // Signup URL
+    SIGNUP_URL,
+    CREATE_SIGNUP_URL,
+    FIND_SIGNUP_URL,
+    // FAQ URL
+    FAQ_URL,
+    CREATE_FAQ_URL,
+    FIND_ALL_FAQ_URL,
+    FIND_ANSWERED_FAQ_URL,
+    ANSWER_FAQ_URL,
+    // Tournament URL
+    TOURNAMENT_URL,
+    CREATE_TOURNAMENT_URL,
+    EDIT_TOURNAMENT_URL,
+    DELETE_TOURNAMENT_URL,
+    FIND_TOURNAMENT_URL,
+    // Tournament Signup URL
+    TOURNAMENT_SIGNUP_URL,
+    CREATE_TOURNAMENT_SIGNUP_URL,
+    FIND_ACTIVE_TOURNAMENT_SIGNUP_URL,
+    FIND_ALL_TOURNAMENT_SIGNUP_URL
+}

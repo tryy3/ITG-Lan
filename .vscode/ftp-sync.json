@@ -1,0 +1,25 @@
+{
+    "remotePath": "./Go/src/github.com/tryy3/itg-lan",
+    "host": "87.98.218.153",
+    "username": "root",
+    "password": "",
+    "port": 3232,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": "D:/ssh/Kimsufi.ppk",
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store",
+        "\\client\\node_modules.+"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
